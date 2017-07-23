@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerShoot : MonoBehaviour {
+public class PlayerShoot : MonoBehaviour
+{
 
     public GameObject bullet;
     public int projectileSpeed;

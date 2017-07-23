@@ -2,14 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMove : MonoBehaviour {
+public class PlayerMove : MonoBehaviour
+{
     
     public float moveSpeed = 1;
 
-	void Start ()
-    {
-		
-	}
 	
 	void Update ()
     {
