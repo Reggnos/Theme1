@@ -1,0 +1,11 @@
+diff a/Assets/Prefabs.meta b/Assets/Prefabs.meta	(rejected hunks)
+@@ -0,0 +1,9 @@
++fileFormatVersion: 2
++guid: a0578ddfe12326e45bd0c288aa0532e8
++folderAsset: yes
++timeCreated: 1500817769
++licenseType: Free
++DefaultImporter:
++  userData: 
++  assetBundleName: 
++  assetBundleVariant: 
