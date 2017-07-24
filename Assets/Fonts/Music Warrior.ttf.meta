@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 7694e6601f6955e43b4320bd7d85d13c
+timeCreated: 1500900514
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Music Warrior
+  fontNames:
+  - Music Warrior
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

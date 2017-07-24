@@ -52,8 +52,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78c5d05b01791884897c50acba58a653, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: -32
-  score: 0
+  scoreText: {fileID: 0}
+  healthText: {fileID: 0}
 --- !u!212 &212683056877246332
 SpriteRenderer:
   m_ObjectHideFlags: 1

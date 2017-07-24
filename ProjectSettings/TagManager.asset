@@ -8,6 +8,14 @@ TagManager:
   - Mix Table
   - Enemy
   - Bullet
+  - BulletClassic
+  - BulletMetal
+  - BulletDisco
+  - BulletTechno
+  - AlienClassic
+  - AlienDisco
+  - AlienMetal
+  - AlienTechno
   layers:
   - Default
   - TransparentFX

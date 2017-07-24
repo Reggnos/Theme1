@@ -23,7 +23,7 @@ public class AlienSpawnManager : MonoBehaviour {
     void SpawnEnemy()
     {
         randomX = new Vector3(Random.Range(pos1.transform.position.x, pos2.transform.position.x), transform.position.y);
-        enemyToSpawn = enemies[0];
+        enemyToSpawn = enemies[Random.Range(0,4)];
         Instantiate(enemyToSpawn);
         enemyToSpawn.transform.position = randomX;
         Invoke("SpawnEnemy", 1);
