@@ -5,14 +5,26 @@ using UnityEngine;
 public class PlayerShoot : MonoBehaviour
 {
 
-    public GameObject bullet;
+    private GameObject bullet;
+    public GameObject camera;
+    private BulletChoose bulletChoose;
     public int projectileSpeed;
     public int amountOfTime;
-	
-	void Update ()
+
+    private void Start()
     {
+        bullet = GetComponent<GameObject>();
+        bulletChoose = camera.GetComponent<BulletChoose>();
+    }
+
+
+    void Update ()
+    {
+        bullet = bulletChoose.bulletChosen;
+
         if (Input.GetKeyDown("space"))
         {
+
             GameObject bulletInstance;
             bulletInstance = Instantiate<GameObject>(bullet,transform.position,transform.rotation);
            

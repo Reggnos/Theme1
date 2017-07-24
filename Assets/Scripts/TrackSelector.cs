@@ -2,24 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TrackSelector : MonoBehaviour {
+public class TrackSelector : MonoBehaviour
+{
 
-    private int selectedTrackPosition = 0;
+    public int selectedTrackPosition = 0;
 
     public GameObject selectedTrack;
     public List<GameObject> tracks;
     public Vector2 selectedSize;
     public Vector2 unselectedSize;
     
-
-	// Use this for initialization
-	void Start () {
+    
+	void Start ()
+    {
         SelectTrack(selectedTrack);
 
     }
 	
-	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
 		if (Input.GetKeyDown("left"))
         {
             GetTrackLeft();
