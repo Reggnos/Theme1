@@ -37,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1855948548806098}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.092062354, y: 5.68, z: 0}
+  m_LocalPosition: {x: 1.4444213, y: 5.68, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -101,7 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   otherGameObject: {fileID: 1300662060148134, guid: 81ad20a8ba28d5748b2cd3e48998551a,
     type: 2}
-  character: {fileID: 1560022076435928, guid: 789c4a9b11cc9db49be37fa3c1658ff2, type: 2}
+  character: {fileID: 1403591217368808, guid: 789c4a9b11cc9db49be37fa3c1658ff2, type: 2}
   walkSpeed: 1.5
 --- !u!212 &212754590815557872
 SpriteRenderer:

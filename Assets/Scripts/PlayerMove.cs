@@ -14,11 +14,11 @@ public class PlayerMove : MonoBehaviour
         bool right = Input.GetKey("d");
 
        
-        if(left && (transform.rotation.z < 0.5f))
+        if(left && (transform.rotation.z < 0.5f) && !Input.GetKey("space"))
         {
             transform.Rotate(new Vector3(0,0,1) * moveSpeed * Time.deltaTime);
         }
-        if (right && (transform.rotation.z > -0.5f))
+        if (right && (transform.rotation.z > -0.5f) && !Input.GetKey("space"))
         {
             transform.Rotate(new Vector3(0, 0, -1) * moveSpeed * Time.deltaTime);
         }

@@ -23,11 +23,11 @@ public class BulletChoose : MonoBehaviour
             case 0: bulletChosen = bulletArray[0];
                     break;
             case 1: bulletChosen = bulletArray[1];
-                break;
+                    break;
             case 2: bulletChosen = bulletArray[2];
-                break;
+                    break;
             case 3: bulletChosen = bulletArray[3];
-                break;
+                    break;
 
         }
             

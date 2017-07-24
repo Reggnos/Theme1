@@ -4,12 +4,23 @@ using UnityEngine;
 
 public class BulletMove : MonoBehaviour
 {
-    
-    public int bulletSpeed;
+    public GameObject player;
+    private float speed ;
+    private float timeToShoot;
 
-    void FixedUpdate()
+    private void Start()
     {
-        transform.Translate(Vector3.up * Time.deltaTime * bulletSpeed);
+        
     }
 
+    void Update()
+    {
+        timeToShoot += Time.deltaTime;
+        if (Input.GetKeyUp("space") || timeToShoot > 3.2) speed = PlayerShoot.projectileSpeed;
+        Debug.Log(timeToShoot);
+        transform.Translate(Vector3.up * Time.deltaTime * speed);
+    }
+
+    
+    
 }
