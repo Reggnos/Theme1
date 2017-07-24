@@ -2176,7 +2176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemies:
-  - {fileID: 1740672039598826, guid: a4f029024ba575c4ca76d6beb55c4b70, type: 2}
+  - {fileID: 1371496307405420, guid: a4f029024ba575c4ca76d6beb55c4b70, type: 2}
   pos1: {fileID: 1446454284}
   pos2: {fileID: 529397469}
 --- !u!1001 &2028725375
