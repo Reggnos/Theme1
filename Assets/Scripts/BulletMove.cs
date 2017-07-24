@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class BulletMove : MonoBehaviour
 {
-
-    public float thrust;
+    
     public int bulletSpeed;
 
     void FixedUpdate()
