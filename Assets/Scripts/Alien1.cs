@@ -10,13 +10,15 @@ public class Alien1 : MonoBehaviour {
     private Transform goal;
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+    {
         goal = otherGameObject.GetComponent<Transform>();
         characterScript = character.GetComponent<Character>();
 	}
 	    
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
         transform.position = Vector2.MoveTowards(transform.position, new Vector2(transform.position.x, goal.transform.position.y), 3 * Time.deltaTime);
     }
 
