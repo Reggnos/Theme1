@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Character : MonoBehaviour
 {
 
+    [SerializeField]
     public static int health;
     public static int score;
 
@@ -16,7 +17,7 @@ public class Character : MonoBehaviour
 
     void Start()
     {
-        health = 10;
+        health = 100;
         score = 0;
     }
 

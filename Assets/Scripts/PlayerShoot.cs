@@ -13,12 +13,15 @@ public class PlayerShoot : MonoBehaviour
     public static float projectileSpeed;
     public static float Hold;
     bool wasDown;
+    public AudioClip[] bulletSounds;
+
+    private AudioSource audioSource;
     
 
 
     private void Start()
     {
-
+        audioSource = GetComponent<AudioSource>();
         bulletChoose = scriptObject.GetComponent<BulletChoose>();
         
     }
@@ -43,6 +46,16 @@ public class PlayerShoot : MonoBehaviour
         }
         else if(Input.GetKeyUp("space") || Hold > 3)
         {
+            if (bulletInstance.tag == "BulletMetal")
+            {
+                audioSource.clip = bulletSounds[0];
+                audioSource.Play();
+            }
+            else if (bulletInstance.tag == "BulletTechno")
+            {
+                audioSource.clip = bulletSounds[1];
+                audioSource.Play();
+            }
             Destroy(bulletInstance, amountOfTimeTillDestroyed);
             projectileSpeed = 5 - Hold;
             Hold = 0;
